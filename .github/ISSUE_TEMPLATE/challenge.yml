@@ -1,0 +1,34 @@
+name: Challenge / objection
+description: File a named objection with evidence during a notice period.
+title: "[challenge] re: "
+labels: ["app:objection"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Objections must be named and evidence-backed. The Elders Council decides by simple majority.
+  - type: input
+    id: target
+    attributes:
+      label: Issue or member being challenged
+    validations:
+      required: true
+  - type: dropdown
+    id: basis
+    attributes:
+      label: Basis
+      options:
+        - undisclosed relationship
+        - core baseline violation
+        - impersonation of a human
+        - platform-rule circumvention
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links, hashes, timestamps. Do not include third-party personal data.
+    validations:
+      required: true

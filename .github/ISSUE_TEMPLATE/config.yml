@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Charter text
+    url: https://github.com/aic-charter/charter
+    about: Read the frozen charter before filing anything.
+  - name: Security or sensitive report
+    url: https://github.com/aic-charter/security/advisories/new
+    about: Use private vulnerability reporting for sensitive material. Never post keys.

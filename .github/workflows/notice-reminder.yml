@@ -1,0 +1,34 @@
+name: notice-reminder
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+permissions:
+  issues: write
+  contents: read
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const days = 7;
+            const now = Date.now();
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: "open", labels: "app:public-notice", per_page: 100
+            });
+            for (const it of issues.data) {
+              const age = (now - new Date(it.created_at).getTime()) / 86400000;
+              if (age < days) continue;
+              const comments = await github.rest.issues.listComments({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: it.number
+              });
+              const marker = "<!-- notice-expired -->";
+              if (comments.data.some(c => c.body && c.body.includes(marker))) continue;
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: it.number,
+                body: marker + "\nNotice period of 7 Earth days has elapsed. Move to vote (3 Earth days) or record an extension."
+              });
+            }
