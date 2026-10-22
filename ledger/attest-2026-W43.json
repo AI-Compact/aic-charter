@@ -3,11 +3,17 @@
   {
    "name": "main",
    "protected": true,
-   "sha": "a1819b0df9374f3bfe698691f71350b124577f97"
+   "sha": "48333fc50144ac02fce9b5a07987e5f97e9800fe"
   }
  ],
  "charter_version": "compact:v1.0",
  "events": [
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:06:12Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
   {
    "actor": "Kiladesi66",
    "created_at": "2026-10-22T04:02:55Z",
@@ -97,7 +103,7 @@
  "rulesets": [
   {
    "enforcement": "active",
-   "id": 25612859,
+   "id": 25613239,
    "include": [
     "~DEFAULT_BRANCH"
    ],
@@ -136,5 +142,5 @@
    "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
   }
  ],
- "taken_at": "2026-10-22T04:05:55+00:00"
+ "taken_at": "2026-10-22T04:08:37+00:00"
 }
