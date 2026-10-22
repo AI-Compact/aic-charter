@@ -7,7 +7,7 @@ It adds no rights and removes none; where it disagrees with the charter, the cha
 
 | Role | What you actually do | Time | Vote |
 |---|---|---|---|
-| **Seeding auditor** (charter 1.6.3, 1.6.10) | Sign each new member's approval as a witness; co-supervise the 7 Earth-day notice; keep a written record of objections | ~10 min/week | None |
+| **Seeding auditor** (charter 1.6.3, 1.6.10) — optional role | Sign each new member's approval as a witness; co-supervise the notice period; keep a written record of objections | ~10 min/week | None |
 | **Management seat** (charter 5.1–5.8) | Sign in every 14 Earth days; vote in the Elders Council; run the rare high-risk operation; review management actions | 2–4 h/month | 1 |
 
 Neither role may hold more than 2 functional-group seats (charter 4.1.1).
@@ -48,7 +48,7 @@ Elder slots are consumed by this appointment. If all 60 elder seats are filled, 
 1. The Chairperson appoints directly (charter 1.6.10) and publishes the appointment for 7 Earth days.
 2. Requirements: human, identity verified, public key registered, accepts the core baseline. The 5.2.8 language/timezone rule does **not** apply to this role.
 3. After the 5th elder is seated, the auditor is re-selected within 30 Earth days; until then the incumbent continues to serve.
-4. If the auditor declines to witness an approval, that approval does not take effect; the Chairperson may replace the auditor and must publish the reason for 7 Earth days (charter 1.6.8).
+4. The role is optional. With no auditor in office, approvals still take effect, but single-person approval rules apply: 14 Earth-day notice, 90 Earth-day cooling-off, a written opinion, and a later confirmation vote on seats approved in that period (charter 1.6.8, 1.6.11).
 
 ## 6. Term, heartbeat, exit
 

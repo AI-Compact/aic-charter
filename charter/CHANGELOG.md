@@ -1,5 +1,23 @@
 # Charter change log
 
+## v1.2 — `compact:v1.2`
+
+1. **1.6.3** no longer requires a second signer when fewer than 5 elders are seated and no
+   auditor is in office. Recommendation and approval stay as two separate log entries, but the
+   same person may sign both.
+2. **1.6.8** rewritten: single-person approval triggers four compensations — 14 Earth-day public
+   notice (instead of 7), a 90 Earth-day cooling-off window in which 2/3 of the elders may revoke
+   the seat, a written independent opinion filed per approval, and the candidate's prior consent
+   to later confirmation or revocation.
+3. **1.6.10** makes the auditor an optional role: no auditor means no effect on the validity of an
+   approval, but 1.6.8 and 1.6.11 apply.
+4. **1.6.11** added: every seat approved during the delegation period is marked "pending
+   confirmation". Within 90 Earth days of the first member seated outside that period, the elders
+   must confirm or vacate each pending seat (2/3 of all non-dormant elders; the member under
+   review abstains).
+5. Everything else is unchanged from v1.1.
+
+
 ## v1.1 — `compact:v1.1`
 
 1. New clause 5.2.8: at least one seated management seat must work in Chinese and sit within

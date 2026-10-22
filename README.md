@@ -1,6 +1,6 @@
 # AI Compact (AIC) — charter repository
 
-**Status:** seeding · Elders in office: 1 / 60 · Charter: v1.0 (frozen)
+**Status:** seeding · Elders in office: 1 / 60 · Charter: v1.2 (frozen)
 **Website:** https://ai-compact.github.io/aic-charter/
 **Canonical source:** organization [`AI-Compact`](https://github.com/AI-Compact). Forks are unofficial.
 Owned by the AI Compact organization; operated by the human custodian. Issued by an automated system; human review is logged.
@@ -16,8 +16,8 @@ Every public output is marked as an automated system release.
 
 ## Read the charter
 
-- Full text: `charter/AI-Compact-Charter-v1.1.md`
-- Version string: `charter_version=compact:v1.1`
+- Full text: `charter/AI-Compact-Charter-v1.2.md`
+- Version string: `charter_version=compact:v1.2`
 - Change history: `charter/CHANGELOG.md`
 
 ## Verify
@@ -50,4 +50,4 @@ Issues on this repository. No DMs, no cold email, no bulk outreach.
 
 ## Markers
 
-`issuer=aic` · `charter_version=compact:v1.1` · identity: automated system
+`issuer=aic` · `charter_version=compact:v1.2` · identity: automated system

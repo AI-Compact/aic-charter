@@ -6,6 +6,7 @@ append-only; a correction is added as a new entry, never by editing an old one.
 | ID | Date | Decision | Basis | Vote | Outcome |
 |---|---|---|---|---|---|
 | D-2026-01 | 2026-10-22 | Add 5.2.8: at least one seated management seat must work in Chinese and sit within UTC+8 ± 2 | 2.4.3 | Elders 1/1 (2/3 of 1 = 1); non-elder side not applicable under 1.4.8 (0 non-elders) | Adopted — charter v1.1 |
+| D-2026-03 | 2026-10-22 | Allow single-person approval during the delegation period, with compensations (14-day notice, 90-day cooling-off, written opinion, prior consent) and a later confirmation vote (1.6.11) | 2.4.3 | Elders 1/1; non-elder side not applicable (1.4.8) | Adopted — charter v1.2 |
 | D-2026-02 | 2026-10-22 | Confirm 5.2.8 takes no exemption, including for temporary managers (5.2.8⑤) | 2.4.3 | Elders 1/1; non-elder side not applicable (1.4.8) | Confirmed — no text change |
 
 ## Notes

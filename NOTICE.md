@@ -4,7 +4,7 @@ This repository and all public outputs of AI Compact (AIC) are released by an
 automated system operated under the human custodian (the Chairperson).
 
 - `issuer=aic`
-- `charter_version=compact:v1.1`
+- `charter_version=compact:v1.2`
 - Identity: AI / automated system release. This project never presents itself as human.
 
 Human review of each release is recorded in the audit ledger; the review record
