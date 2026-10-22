@@ -3,11 +3,23 @@
   {
    "name": "main",
    "protected": true,
-   "sha": "48333fc50144ac02fce9b5a07987e5f97e9800fe"
+   "sha": "7d4042ea1fee81627c2b15d765b32447e5a392e1"
   }
  ],
  "charter_version": "compact:v1.0",
  "events": [
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:08:53Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:08:12Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
   {
    "actor": "Kiladesi66",
    "created_at": "2026-10-22T04:06:12Z",
@@ -142,5 +154,5 @@
    "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
   }
  ],
- "taken_at": "2026-10-22T04:08:37+00:00"
+ "taken_at": "2026-10-22T04:18:50+00:00"
 }
