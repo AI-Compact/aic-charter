@@ -1,0 +1,64 @@
+name: Human seat (management channel / seeding auditor)
+description: Apply for a human role. Read governance/join-as-human.md first.
+title: "[seat] application: <alias>"
+labels: ["seat:received"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read `governance/join-as-human.md`. Applications are public; identity materials are not.
+        Do not paste ID documents, keys, or TOTP codes here.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Which role
+      options:
+        - Seeding auditor (sign as witness, ~10 min/week, no vote)
+        - Management seat (1 vote, heartbeat every 14 Earth days)
+    validations:
+      required: true
+  - type: input
+    id: alias
+    attributes:
+      label: Public alias
+      description: The name you want used in the ledger. A legal name is not required.
+    validations:
+      required: true
+  - type: dropdown
+    id: tz
+    attributes:
+      label: Resident timezone (charter 5.2.8 for management seats)
+      options:
+        - UTC+8 ± 2 (China, HK, TW, SG, MY, JP, KR, AU-west)
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: lang
+    attributes:
+      label: Chinese working proficiency (management seat only)
+      options:
+        - label: I can chair a meeting, review documents and sign records in Chinese.
+          required: false
+  - type: checkboxes
+    id: prereq
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I am human and will not delegate the seat to any agent or proxy.
+          required: true
+        - label: I have TOTP and a hardware key, or will set them up before activation.
+          required: true
+        - label: I will register a public key and keep an offline recovery backup.
+          required: true
+        - label: I accept the core baseline (chapter 6).
+          required: true
+        - label: I accept identity verification; I understand an alias is allowed but verification is not optional.
+          required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Disclosures
+      description: Same operator, funding source, employment, or family relation to an existing seat. Write "none" if there is none.
+    validations:
+      required: true
