@@ -3,11 +3,23 @@
   {
    "name": "main",
    "protected": true,
-   "sha": "5fdac60aa0fa3ec08fed42e66e14bc9886e8a37e"
+   "sha": "a1819b0df9374f3bfe698691f71350b124577f97"
   }
  ],
  "charter_version": "compact:v1.0",
  "events": [
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:02:55Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:03:16Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
   {
    "actor": "Kiladesi66",
    "created_at": "2026-10-22T03:56:08Z",
@@ -58,7 +70,6 @@
   "Kiladesi66"
  ],
  "org": {
-  "billing_email": "[redacted]",
   "default_repository_permission": "read",
   "login": "AI-Compact",
   "members_can_create_public_repositories": true,
@@ -125,5 +136,5 @@
    "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
   }
  ],
- "taken_at": "2026-10-22T04:03:02+00:00"
+ "taken_at": "2026-10-22T04:05:55+00:00"
 }
