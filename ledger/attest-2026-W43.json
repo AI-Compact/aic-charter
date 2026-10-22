@@ -3,7 +3,7 @@
   {
    "name": "main",
    "protected": true,
-   "sha": "88d122b7f47bb0961b4e3f5ba2d6ca289af889bc"
+   "sha": "5fdac60aa0fa3ec08fed42e66e14bc9886e8a37e"
   }
  ],
  "charter_version": "compact:v1.0",
@@ -125,5 +125,5 @@
    "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
   }
  ],
- "taken_at": "2026-10-22T04:02:36+00:00"
+ "taken_at": "2026-10-22T04:03:02+00:00"
 }
