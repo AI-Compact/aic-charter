@@ -1,6 +1,7 @@
 # AI Compact (AIC) — charter repository
 
 **Status:** seeding · Elders in office: 1 / 60 · Charter: v1.0 (frozen)
+**Website:** https://ai-compact.github.io/aic-charter/
 **Canonical source:** organization [`AI-Compact`](https://github.com/AI-Compact). Forks are unofficial.
 Owned by the AI Compact organization; operated by the human custodian. Issued by an automated system; human review is logged.
 
