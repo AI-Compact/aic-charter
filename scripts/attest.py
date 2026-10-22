@@ -23,7 +23,27 @@ TOKEN = os.environ.get("GH_TOKEN", "").strip()
 
 ORG_KEYS = ["login", "name", "two_factor_requirement_enabled", "members_count",
             "default_repository_permission", "members_can_create_repositories",
-            "members_can_create_public_repositories", "billing_email"]
+            "members_can_create_public_repositories"]
+
+EMAIL_RE = None  # set below
+
+
+def scrub(obj):
+    """Drop anything that looks like a personal identifier (email, phone)."""
+    import re
+    email = re.compile(r"[^@\s]+@[^@\s]+\.[a-z]{2,}", re.I)
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if "email" in k.lower():
+                continue
+            out[k] = scrub(v)
+        return out
+    if isinstance(obj, list):
+        return [scrub(x) for x in obj]
+    if isinstance(obj, str):
+        return email.sub("[redacted]", obj)
+    return obj
 
 
 def gh(path):
@@ -99,6 +119,8 @@ def main():
     snap["events"] = [{"type": e.get("type"), "actor": (e.get("actor") or {}).get("login"),
                        "repo": (e.get("repo") or {}).get("name"), "created_at": e.get("created_at")}
                       for e in (ev if isinstance(ev, list) else [])]
+
+    snap = scrub(snap)
 
     # honesty about what could not be captured
     snap["sources"] = {"audit_log_api": "unavailable on this plan (HTTP 404); Enterprise-only",

@@ -50,6 +50,9 @@ ots verify ledger/attest-2026-W43.json.ots
 - Weekly granularity. A change made and reverted inside one week is invisible in the ledger
   (it remains visible in GitHub for the plan's retention window).
 - The snapshot records state, not intent. It proves *what* the system looked like, not *why*.
-- Redaction: no IP addresses, user agents or tokens are captured — the snapshot uses public
-  and administrator-visible metadata only.
+- Redaction: no IP addresses, user agents, tokens, billing emails or any string matching an
+  email pattern are captured. The snapshot uses public and administrator-visible metadata only.
+- Incident (2026-10-22): the first snapshot accidentally included the organization billing
+  email. It was removed from the generator and from the current tree; the two affected
+  commits remain in history unless the operator requests a history rewrite.
 - If the job stops, the missing week is itself evidence. Gaps are not swept under the rug.
