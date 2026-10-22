@@ -3,11 +3,17 @@
   {
    "name": "main",
    "protected": true,
-   "sha": "7d4042ea1fee81627c2b15d765b32447e5a392e1"
+   "sha": "b36238df44bb48bf9e9ab34d98d74e02c58f7f78"
   }
  ],
- "charter_version": "compact:v1.0",
+ "charter_version": "compact:v1.1",
  "events": [
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T04:31:53Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "ReleaseEvent"
+  },
   {
    "actor": "Kiladesi66",
    "created_at": "2026-10-22T04:08:53Z",
@@ -102,6 +108,12 @@
    "draft": false,
    "prerelease": false,
    "tag": "v1.0.0-charter"
+  },
+  {
+   "created_at": "2026-10-22T04:31:51Z",
+   "draft": false,
+   "prerelease": false,
+   "tag": "v1.1.0-charter"
   }
  ],
  "repo": {
@@ -152,7 +164,11 @@
   {
    "name": "v1.0.1-repo",
    "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
+  },
+  {
+   "name": "v1.1.0-charter",
+   "sha": "b36238df44bb48bf9e9ab34d98d74e02c58f7f78"
   }
  ],
- "taken_at": "2026-10-22T04:18:50+00:00"
+ "taken_at": "2026-10-22T04:31:58+00:00"
 }
