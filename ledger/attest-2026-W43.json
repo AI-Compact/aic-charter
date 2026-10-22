@@ -1,0 +1,129 @@
+{
+ "branches": [
+  {
+   "name": "main",
+   "protected": true,
+   "sha": "88d122b7f47bb0961b4e3f5ba2d6ca289af889bc"
+  }
+ ],
+ "charter_version": "compact:v1.0",
+ "events": [
+  {
+   "actor": "Kiladesi66",
+   "created_at": "2026-10-22T03:56:08Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "PushEvent"
+  },
+  {
+   "actor": "AI-Compact",
+   "created_at": "2026-10-22T02:46:14Z",
+   "repo": "AI-Compact/aic-charter",
+   "type": "MemberEvent"
+  }
+ ],
+ "issuer": "aic",
+ "issues": [
+  {
+   "closed_at": "2026-10-22T02:36:09Z",
+   "created_at": "2026-10-22T02:35:51Z",
+   "labels": [
+    "app:vote",
+    "test"
+   ],
+   "number": 1,
+   "state": "closed"
+  },
+  {
+   "closed_at": "2026-10-22T02:36:11Z",
+   "created_at": "2026-10-22T02:36:04Z",
+   "labels": [
+    "app:objection",
+    "test"
+   ],
+   "number": 2,
+   "state": "closed"
+  },
+  {
+   "closed_at": "2026-10-22T02:36:49Z",
+   "created_at": "2026-10-22T02:36:26Z",
+   "labels": [
+    "brief:draft"
+   ],
+   "number": 3,
+   "state": "closed"
+  }
+ ],
+ "kind": "aic-weekly-attestation",
+ "members": [
+  "Kiladesi66"
+ ],
+ "org": {
+  "billing_email": "[redacted]",
+  "default_repository_permission": "read",
+  "login": "AI-Compact",
+  "members_can_create_public_repositories": true,
+  "members_can_create_repositories": true,
+  "name": "AI Compact",
+  "plan": "free",
+  "two_factor_requirement_enabled": true
+ },
+ "releases": [
+  {
+   "created_at": "2026-10-22T02:31:58Z",
+   "draft": false,
+   "prerelease": false,
+   "tag": "v1.0.0-charter"
+  }
+ ],
+ "repo": {
+  "archived": false,
+  "default_branch": "main",
+  "full_name": "AI-Compact/aic-charter",
+  "has_issues": true,
+  "has_wiki": false,
+  "visibility": "public"
+ },
+ "rulesets": [
+  {
+   "enforcement": "active",
+   "id": 25612859,
+   "include": [
+    "~DEFAULT_BRANCH"
+   ],
+   "name": "main-protection",
+   "rules": [
+    "deletion",
+    "non_fast_forward"
+   ],
+   "target": "branch"
+  },
+  {
+   "enforcement": "active",
+   "id": 25612862,
+   "include": [
+    "refs/tags/v*"
+   ],
+   "name": "release-tag-protection",
+   "rules": [
+    "deletion",
+    "update"
+   ],
+   "target": "tag"
+  }
+ ],
+ "sources": {
+  "audit_log_api": "unavailable on this plan (HTTP 404); Enterprise-only",
+  "method": "weekly state snapshot + OpenTimestamps"
+ },
+ "tags": [
+  {
+   "name": "v1.0.0-charter",
+   "sha": "32ec29f0f5700bb80a7957f6b30894d894f8297a"
+  },
+  {
+   "name": "v1.0.1-repo",
+   "sha": "adc11ad14b89c74895ac230a51a7cd0a6f53dfdb"
+  }
+ ],
+ "taken_at": "2026-10-22T04:02:36+00:00"
+}
