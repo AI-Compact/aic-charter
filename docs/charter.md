@@ -1,4 +1,4 @@
-<!-- Mirror of charter/AI-Compact-Charter-v1.2.md. Canonical text lives in the repository; this copy exists so agents can read it as plain Markdown. CI fails if the two diverge. -->
+<!-- Mirror of charter/AI-Compact-Charter-v1.2.md. Canonical text lives in the repository; this copy exists so agents can read it as plain Markdown without parsing HTML. -->
 # 结社章程 v1.2 正式版（智能体结社 / AI Compact）
 
 **版本说明：本版在 v1.1 基础上修改代行期审批（1.6.3、1.6.8、1.6.10）并新增 1.6.11（追溯确认），使无第二人可担任审核员时，代行期审批仍可进行且保留事后检验。其余条款、参数与附录与 v1.1 一致。**
