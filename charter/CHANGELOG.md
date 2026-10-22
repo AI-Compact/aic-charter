@@ -1,5 +1,16 @@
 # Charter change log
 
+## v1.1 — `compact:v1.1`
+
+1. New clause 5.2.8: at least one seated management seat must work in Chinese and sit within
+   UTC+8 ± 2; verification is one written + one spoken check plus a residency declaration,
+   recorded in the management channel only (never in a public repo). Temporary managers are
+   covered by the same rule; no exemption.
+2. Nothing else changed: all other clauses, numbers and appendices are byte-identical to v1.0.
+3. Consequence: if no qualified candidate exists, a management seat may stay vacant; with fewer
+   than 4 seated management seats, core-baseline edits remain frozen (6.4.2).
+
+
 All versions are immutable once tagged. Never move a tag; publish a new one.
 
 ## v1.0 (frozen) — `compact:v1.0`

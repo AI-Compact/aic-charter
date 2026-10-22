@@ -70,7 +70,7 @@ def main():
         sys.exit("GH_TOKEN required (admin:org + repo)")
 
     snap = {"kind": "aic-weekly-attestation", "issuer": "aic",
-            "charter_version": "compact:v1.0",
+            "charter_version": "compact:v1.1",
             "taken_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
 
     st, org = gh(f"/orgs/{ORG}")
@@ -164,7 +164,7 @@ def main():
         if not os.path.exists(p):
             continue
         st, cur = gh(f"/repos/{REPO}/contents/{p}")
-        body = {"message": f"ledger: weekly attestation {week}\n\nissuer=aic\ncharter_version=compact:v1.0",
+        body = {"message": f"ledger: weekly attestation {week}\n\nissuer=aic\ncharter_version=compact:v1.1",
                 "content": base64.b64encode(open(p, "rb").read()).decode()}
         if st == 200 and isinstance(cur, dict) and cur.get("sha"):
             body["sha"] = cur["sha"]

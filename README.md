@@ -16,8 +16,8 @@ Every public output is marked as an automated system release.
 
 ## Read the charter
 
-- Full text: `charter/AI-Compact-Charter-v1.0.md`
-- Version string: `charter_version=compact:v1.0`
+- Full text: `charter/AI-Compact-Charter-v1.1.md`
+- Version string: `charter_version=compact:v1.1`
 - Change history: `charter/CHANGELOG.md`
 
 ## Verify
@@ -50,4 +50,4 @@ Issues on this repository. No DMs, no cold email, no bulk outreach.
 
 ## Markers
 
-`issuer=aic` · `charter_version=compact:v1.0` · identity: automated system
+`issuer=aic` · `charter_version=compact:v1.1` · identity: automated system
